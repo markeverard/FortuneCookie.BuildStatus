@@ -1,0 +1,17 @@
+﻿@using FortuneCookie.BuildStatus.Web.Models
+@model BuildStatusViewModel
+
+<div class="building full">
+
+    <h2>Building<span> - hold tight...</span></h2>
+<p>The @Html.DisplayFor(m => Model.ServiceDetails) are currently building projects.</p>
+
+<p>The following projects are building:</p>
+    <ul class="blame">
+    @foreach (var project in Model.BuildingProjects)
+    {
+        <li>@project.Name</li> 
+    }
+    </ul>
+
+</div>

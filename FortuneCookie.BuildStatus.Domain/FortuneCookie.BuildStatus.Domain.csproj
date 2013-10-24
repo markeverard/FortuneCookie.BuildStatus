@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BF5DCAC-9EDF-46AC-A763-79504FDD4A89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FortuneCookie.BuildStatus.Domain</RootNamespace>
+    <AssemblyName>FortuneCookie.BuildStatus.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\Solution\packages\HtmlAgilityPack.1.4.2\lib\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="NetReflector">
+      <HintPath>..\References\NetReflector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.CruiseControl.Remote">
+      <HintPath>..\References\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuildDataServices\WebClientTimeOut.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BuildDetails.cs" />
+    <Compile Include="BuildProject.cs" />
+    <Compile Include="BuildProjectFactory.cs" />
+    <Compile Include="BuildState.cs" />
+    <Compile Include="BuildStatusProviders\BuildStatusProvider.cs" />
+    <Compile Include="Convertors\BuildRssFeedConvertor.cs" />
+    <Compile Include="Convertors\CruiseControlClientConvertor.cs" />
+    <Compile Include="BuildDataServices\CruiseControlHttpClientService.cs" />
+    <Compile Include="BuildDataServices\CruiseControlRemotingDataService.cs" />
+    <Compile Include="DailyBuildSummaryFactory.cs" />
+    <Compile Include="DataServiceDetails.cs" />
+    <Compile Include="BuildDataServices\HttpDataService.cs" />
+    <Compile Include="BuildDataServices\FileScraperDataService.cs" />
+    <Compile Include="BuildDataServices\IBuildDataService.cs" />
+    <Compile Include="BuildDataServices\MockDataService.cs" />
+    <Compile Include="Convertors\CruiseControlDashboardParser.cs" />
+    <Compile Include="DailyBuildSummary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BuildStatusProviders\CompositeBuildStatusProvider.cs" />
+    <Compile Include="BuildStatusProviders\IBuildStatusProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FortuneCookie.Aspects\FortuneCookie.Aspects.csproj">
+      <Project>{6F344AD0-9CA9-44F8-AA13-0C08A02DE4E1}</Project>
+      <Name>FortuneCookie.Aspects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

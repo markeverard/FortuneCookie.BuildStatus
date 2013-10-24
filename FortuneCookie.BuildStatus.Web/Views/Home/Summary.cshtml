@@ -1,0 +1,26 @@
+﻿@model FortuneCookie.BuildStatus.Web.Models.BuildDetailsViewModel
+
+<h3>Yesterday</h3>
+<div class="total">@Model.DailySummary.GoodPercentage%</div>
+<div class="daily">
+    <p>@Model.DailySummary.TotalBuilds builds</p>
+    <p>@Model.DailySummary.FailedBuilds failed</p>
+    <p>@Model.DailySummary.NumberChangedFiles files modified</p>
+</div>
+
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Latest builds</th>
+    </tr>
+    @foreach (var details in @Model.Details)
+    {
+        <tr class="@details.Status.ToString().ToLower()">
+            <td>@details.Date.ToShortTimeString()</td>
+            <td>
+                @details.ProjectName <br />
+                <span>version @details.VersionNumber : @details.NumberChangedFiles files modified</span>
+            </td>
+        </tr>
+    }
+</table>

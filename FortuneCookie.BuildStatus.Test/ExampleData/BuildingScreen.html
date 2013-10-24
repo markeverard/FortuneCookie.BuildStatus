@@ -1,0 +1,1225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>CruiseControl.NET</title>
+		<link type="text/css" rel="stylesheet" href="/cruisecontrol.css" />
+		<link type="text/css" rel="stylesheet" href="/javascript/theme/ui.all.css" />
+		<link rel="shortcut icon" href="/AppIcon.ico" />
+		<script src="/javascript/ccnet.js" type="text/javascript"></script>
+		<script src="/javascript/jquery.js" type="text/javascript"></script>
+		<script src="/javascript/jquery-ui.js" type="text/javascript"></script>
+		<script src="/javascript/jquery.metadata.js" type="text/javascript"></script>
+		<script src="/javascript/jquery.tablesorter.js" type="text/javascript"></script>
+		<script src="/javascript/jQuery.ccnet.js" type="text/javascript"></script>
+	</head>
+	<body class="wholepage">
+		<table class="main-panel" border="0" width="100%">
+			<tr>
+				<td valign="middle" align="left">
+					<a href="http://ccnet.thoughtworks.com"><img src="/images/ccnet_logo.gif" border="0" alt="CruiseControl.NET Logo" /></a>
+				</td>
+				<td align="right" valign="bottom">
+					<!-- LoginAction.vm: Start -->
+<!-- LoginAction.vm: End -->
+
+					<a href="/doc/index.html">Documentation</a>
+				</td>
+			</tr>
+		</table>
+		<table class="TopControls" border="0" width="100%" cellpadding="3" cellspacing="0">
+			<tr>
+				<td valign="middle" align="left"><!-- TopMenu.vm: Start -->
+<table class="breadcrumbs">
+	<tr>
+		<td>
+			<div>
+				<a href="/ViewFarmReport.aspx">Dashboard</a>
+																</div>
+		</td>
+	</tr>
+</table>
+<!-- TopMenu.vm: End -->
+</td>
+				<td valign="middle" align="right"><p>Version : 1.6.7981.1</p></td>
+			</tr>
+		</table>
+		<table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" id="LeftHandSide" bgcolor="#eeeedd" width="180">
+					<table id="Plugins" cellpadding="3" cellspacing="0" border="0">
+						<tr><td><img src="/images/shim.gif" width="180" height="1" alt="" /></td></tr>
+						<tr><td><!-- FarmSideBar.vm: Start -->
+<table width="100%">
+		<tr><td><a href="/ViewFarmReport.aspx" class="">Farm Report</a></td></tr>
+		<tr><td><a href="/CCTrayDownload.aspx" class="">Download CCTray</a></td></tr>
+		<tr><td><a href="/AdministerDashboard.aspx" class="">Administer Dashboard</a></td></tr>
+		<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Servers</b></td></tr>
+		<tr><td><a href="/server/local/ViewServerReport.aspx" class="">local</a></td></tr>
+	
+		<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Categories</b> (<a href="/ViewFarmReport.aspx">All</a>)
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=Continuous+Integration">Continuous Integration</a>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=Package">Package</a>
+		</td>
+	</tr>
+		</table>
+<!-- FarmSideBar.vm: End -->
+</td></tr>
+					</table>
+				</td>
+				<td width="2"><img src="/images/shim.gif" alt="" width="2"/></td>
+				<td valign="top" bgcolor="#ffffff">
+					<table border="0" align="center" cellpadding="3" cellspacing="0" width="100%">
+						<tr><td>
+						<!-- Main content: Start -->
+						<!-- ProjectGrid.vm: Start -->
+<script type="text/javascript">
+  $(function(){
+      $('#parameterCheck').dialog({
+      autoOpen:false,
+      modal:true,
+      title:'Project Parameters',
+      width:400,
+      height:300,
+      overlay:{
+      opacity:0.5,
+      background:'black'
+      }
+      });
+            var sortList = [[0,0],[1,0]];
+            $('#StatusGrid').initialiseProjectGrid({
+        sortList:sortList
+      });
+  });
+</script>
+<div id="parameterCheck" style="display:none;">
+  <div id="parameterEditor">Loading parameters, please wait...</div>
+</div>
+<form id="RefreshForm"
+      method="post">
+  <table width="100%">
+    <tr>
+      <td align="right">
+        <input type="submit"
+               align="right"
+               name="Refresh"
+               value="Refresh status" />
+      </td>
+    </tr>
+  </table>
+</form>
+
+
+                                                                                                                
+<table id="StatusGrid"
+       class="SortableGrid">
+  <thead>
+        <tr class="ProjectGridHeader">
+            <th class="left">Server</th>
+            <th class="left">Project Name</th>
+      <th>Last Build Status</th>
+      <th>Last Build Time</th>
+      <th>Next Build Time</th>
+      <th>Last Build Label</th>
+      <th>CCNet Status</th>
+      <th>Activity</th>
+      <th class="{sorter:false}">Messages</th>
+      <th class="{sorter:false}">Admin</th>
+    </tr>
+  </thead>
+  <tbody>
+
+        
+        <tr id="projectData1">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/AmexMerchant/ViewProjectReport.aspx" title="">AmexMerchant</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-18 10:53:26</td>
+            <td>2011-08-18 12:39:51</td>
+            <td>0.1.264.424</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="AmexMerchant" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/AmexMerchant/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData2">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/AmexMerchant%20Create%20Package/ViewProjectReport.aspx" title="">AmexMerchant Create Package</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-18 12:02:15</td>
+            <td>Force Build Only</td>
+            <td>1.0.13.424</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="AmexMerchant Create Package" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/AmexMerchant%20Create%20Package/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData3">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/ChestertonHumberts/ViewProjectReport.aspx" title="">ChestertonHumberts</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-18 12:23:00</td>
+            <td>2011-08-18 12:39:55</td>
+            <td>0.1.78.272</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="ChestertonHumberts" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/ChestertonHumberts/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData4">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/ChestertonHumbertsPublishing/ViewProjectReport.aspx" title="">ChestertonHumbertsPublishing</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-07-26 16:56:36</td>
+            <td>Force Build Only</td>
+            <td>1.0.13.248</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="ChestertonHumbertsPublishing" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/ChestertonHumbertsPublishing/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData5">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/CIMA/ViewProjectReport.aspx" title="">CIMA</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>4</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="CIMA" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/CIMA/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData6">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/CIMAPCAO/ViewProjectReport.aspx" title="">CIMAPCAO</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>1</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="CIMAPCAO" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/CIMAPCAO/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData7">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/cp.slh.com/ViewProjectReport.aspx" title="">cp.slh.com</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>38</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="cp.slh.com" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/cp.slh.com/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData8">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Fitness%20First/ViewProjectReport.aspx" title="">Fitness First</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 20:01:16</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>249</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Fitness First" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Fitness%20First/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData9">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Fitness%20First%20Create%20Package%20UK%20Content/ViewProjectReport.aspx" title="">Fitness First Create Package UK Content</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-12 11:51:31</td>
+            <td>Force Build Only</td>
+            <td>0.0.0.2786</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Fitness First Create Package UK Content" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Fitness%20First%20Create%20Package%20UK%20Content/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData10">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Fitness%20UK%20PROD%20%28NTT%29/ViewProjectReport.aspx" title="">Fitness UK PROD (NTT)</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-12 11:51:36</td>
+            <td>Force Build Only</td>
+            <td>0.0.0.2786</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Fitness UK PROD (NTT)" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Fitness%20UK%20PROD%20%28NTT%29/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData11">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Fitness%20UK%20UAT%20%28NTT%29/ViewProjectReport.aspx" title="">Fitness UK UAT (NTT)</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 17:20:11</td>
+            <td>Force Build Only</td>
+            <td>0.0.0.2828</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Fitness UK UAT (NTT)" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Fitness%20UK%20UAT%20%28NTT%29/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData12">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/FitnessFirst%20Create%20Package/ViewProjectReport.aspx" title="">FitnessFirst Create Package</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 19:52:23</td>
+            <td>Force Build Only</td>
+            <td>1.0.6.2845</td>
+            <td class="statusStopped">Stopped</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="FitnessFirst Create Package" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/FitnessFirst%20Create%20Package/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StartBuild"
+                         value="Start"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData13">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/hms.slh.com/ViewProjectReport.aspx" title="">hms.slh.com</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:39:51</td>
+            <td>37</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="hms.slh.com" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/hms.slh.com/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData14">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Informa/ViewProjectReport.aspx" title="">Informa</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>5</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Informa" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Informa/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData15">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Kenwood/ViewProjectReport.aspx" title="">Kenwood</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>34</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Kenwood" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Kenwood/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData16">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/NetJets/ViewProjectReport.aspx" title="">NetJets</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:38:09</td>
+            <td>0.1.289.1251</td>
+            <td class="statusRunning">Running</td>
+            <td class="activityBuilding">Building</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="NetJets" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="submit"
+                         name="AbortBuild"
+                         value="Abort"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+                <tr id="link16" class="buildStatus">
+                        <td colspan="10"><table>
+<tr><td>2011-08-18 12:39:04</td> <td>Executing MSBuild :BuildFile: Solution Files\StyleCopBuildTask.proj</td></tr>
+</table></td>
+                    </tr>
+              
+        <tr id="projectData17">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/NetJetsDataLayer/ViewProjectReport.aspx" title="">NetJetsDataLayer</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>21</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="NetJetsDataLayer" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/NetJetsDataLayer/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData18">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/NetJetsDataLayerPublishing/ViewProjectReport.aspx" title="">NetJetsDataLayerPublishing</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-07-27 10:21:57</td>
+            <td>Force Build Only</td>
+            <td>1.0.10.1201</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="NetJetsDataLayerPublishing" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/NetJetsDataLayerPublishing/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData19">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/NetJetsPublishing/ViewProjectReport.aspx" title="">NetJetsPublishing</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-16 16:56:35</td>
+            <td>Force Build Only</td>
+            <td>2.0.58.1248</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="NetJetsPublishing" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/NetJetsPublishing/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData20">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Pinsent%20Masons/ViewProjectReport.aspx" title="">Pinsent Masons</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-18 12:22:12</td>
+            <td>2011-08-18 12:40:04</td>
+            <td>592</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Pinsent Masons" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Pinsent%20Masons/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData21">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/Pinsent%20Masons%20Publishing/ViewProjectReport.aspx" title="">Pinsent Masons Publishing</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:26:08</td>
+            <td>Force Build Only</td>
+            <td>1.0.39.1142</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Pinsent Masons Publishing" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/Pinsent%20Masons%20Publishing/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData22">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/RICS/ViewProjectReport.aspx" title="">RICS</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-18 11:19:47</td>
+            <td>2011-08-18 12:39:51</td>
+            <td>0.1.538.1189</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="RICS" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/RICS/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData23">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/RICSPublishing/ViewProjectReport.aspx" title="">RICSPublishing</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-11 11:42:31</td>
+            <td>Force Build Only</td>
+            <td>1.0.12.1079</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="RICSPublishing" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/RICSPublishing/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData24">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/RioTinto/ViewProjectReport.aspx" title="">RioTinto</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 19:52:28</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>54</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="RioTinto" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/RioTinto/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData25">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/SLH%20Booker/ViewProjectReport.aspx" title="">SLH Booker</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:19</td>
+            <td>18</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="SLH Booker" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/SLH%20Booker/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData26">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/SLH%20EPiServer/ViewProjectReport.aspx" title="">SLH EPiServer</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>117</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="SLH EPiServer" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/SLH%20EPiServer/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData27">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/TechWeb/ViewProjectReport.aspx" title="">TechWeb</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>4</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="TechWeb" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/TechWeb/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData28">
+                        <td class="Black left">local</td>
+                        <td class="left">
+              <a href="/server/local/project/UefaPlayerRater/ViewProjectReport.aspx" title="">UefaPlayerRater</a>
+            </td>
+            <td class="Green">Success</td>
+            <td>2011-08-17 18:12:09</td>
+            <td>2011-08-18 12:40:10</td>
+            <td>9</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="UefaPlayerRater" />
+                <input type="hidden"
+                       name="serverName"
+                       value="local" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/local/project/UefaPlayerRater/ViewProjectParameters.aspx')"/>
+                                                                        <input type="submit"
+                         name="StopBuild"
+                         value="Stop"/>
+                                  </font>
+              </form>
+            </td>
+        </tr>
+                  </tbody>
+    <tfoot>
+    <tr>
+      <td colspan="10">
+        <table  id="BuildPercentage">
+          <tr title="Percentage of successfull builds : 100%">
+                        <td width="100%"
+                bgcolor="#33CC00"></td>
+                      </tr>
+        </table>
+      </td>
+    </tr>
+  </tfoot>
+  </table>
+
+
+
+
+<!-- ProjectGrid.vm: End -->
+
+						<!-- Main content: End -->
+						</td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td height="2" colspan="3"></td>
+			</tr>
+		</table>
+		<table class="Footer" width="100%">
+			<tr valign="top">
+				<td>
+					<p>This page rendered at 2011-08-18 12:39:22</p>
+				</td>
+				<td align="right">
+					<a href="http://opensource.thoughtworks.com/"><img src="/images/tw_open_source_small.png" border="0" alt="ThoughtWorks Open Source"/></a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

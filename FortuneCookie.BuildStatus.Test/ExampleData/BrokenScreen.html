@@ -1,0 +1,596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>CCNet </title>
+		<link type="text/css" rel="stylesheet" href="/cruisecontrol.css" />
+		<link type="text/css" rel="stylesheet" href="/javascript/theme/ui.all.css" />
+		<link rel="shortcut icon" href="/AppIcon.ico" />
+		<link type="text/css" rel="stylesheet" href="/javascript/highlight/styles/github.css">
+		<meta http-equiv="refresh" content="2147483647" > 		
+		<script src="/javascript/highlight/highlight.pack.js"></script>		
+		<script src="/javascript/ccnet.js" type="text/javascript"></script>
+		<script src="/javascript/jquery.js" type="text/javascript"></script>
+		<script src="/javascript/jquery-ui.js" type="text/javascript"></script>
+		<script src="/javascript/jquery.metadata.js" type="text/javascript"></script>
+		<script src="/javascript/jquery.tablesorter.js" type="text/javascript"></script>
+		<script src="/javascript/jQuery.ccnet.js" type="text/javascript"></script>
+	</head>
+	<body class="wholepage">
+		<table class="main-panel" border="0" width="100%">
+			<tr>
+				<td valign="middle" align="left">
+					<a href="http://www.cruisecontrolnet.org"><img src="/images/ccnet_logo.gif" border="0" alt="CruiseControl.NET Logo" /></a>
+				</td>
+				<td align="right" valign="bottom">
+					<!-- LoginAction.vm: Start -->
+<!-- LoginAction.vm: End -->
+
+					<a href="/doc/index.html">Documentation</a>
+				</td>
+			</tr>
+		</table>
+		<table class="TopControls" border="0" width="100%" cellpadding="3" cellspacing="0">
+			<tr>
+				<td valign="middle" align="left"><!-- TopMenu.vm: Start -->
+<table class="breadcrumbs">
+	<tr>
+		<td>
+			<div>
+				<a href="/ViewFarmReport.aspx">Dashboard</a>
+																</div>
+		</td>
+	</tr>
+</table>
+<!-- TopMenu.vm: End -->
+</td>
+				<td valign="middle" align="right"><p>Version : 1.7.746.8065</p></td>
+			</tr>
+		</table>
+		<table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" id="LeftHandSide" bgcolor="#eeeedd" width="180">
+					<table id="Plugins" cellpadding="3" cellspacing="0" border="0">
+						<tr><td><img src="/images/shim.gif" width="180" height="1" alt="" /></td></tr>
+						<tr><td><!-- FarmSideBar.vm: Start -->
+<table width="100%">
+		<tr><td><a href="/ViewFarmReport.aspx" class="">Farm Report</a></td></tr>
+		<tr><td><a href="/CCTrayDownload.aspx" class="">Download CCTray</a></td></tr>
+		<tr><td><a href="/AdministerDashboard.aspx" class="">Administer Dashboard</a></td></tr>
+		<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Servers</b></td></tr>
+		<tr><td><a href="/server/build.nauck-it.de/ViewServerReport.aspx" class="">build.nauck-it.de</a></td></tr>
+	
+		<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Categories</b> (<a href="/ViewFarmReport.aspx">All</a>)
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=AspSQLProvider">AspSQLProvider</a>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=Build+Server+Configuration">Build Server Configuration</a>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=CruiseControl.NET">CruiseControl.NET</a>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=FAKE">FAKE</a>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=Footloose">Footloose</a>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=Nauck+IT+Utilities">Nauck IT Utilities</a>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<a href="/ViewFarmReport.aspx?Category=Npgsql">Npgsql</a>
+		</td>
+	</tr>
+		</table>
+<!-- FarmSideBar.vm: End -->
+</td></tr>
+					</table>
+				</td>
+				<td width="2"><img src="/images/shim.gif" alt="" width="2"/></td>
+				<td valign="top" bgcolor="#ffffff">
+					<table border="0" align="center" cellpadding="3" cellspacing="0" width="100%">
+						<tr><td>
+						<!-- Main content: Start -->
+						<!-- ProjectGrid.vm: Start -->
+<script type="text/javascript">
+  $(function(){
+      $('#parameterCheck').dialog({
+      autoOpen:false,
+      modal:true,
+      title:'Project Parameters',
+      width:400,
+      height:300,
+      overlay:{
+      opacity:0.5,
+      background:'black'
+      }
+      });
+            var sortList = [[0,0],[1,0]];
+            $('#StatusGrid').initialiseProjectGrid({
+        sortList:sortList
+      });
+  });
+</script>
+<div id="parameterCheck" style="display:none;">
+  <div id="parameterEditor">Loading parameters, please wait...</div>
+</div>
+<form id="RefreshForm"
+      method="post">
+  <table width="100%">
+    <tr>
+      <td align="right">
+        <input type="submit"
+               align="right"
+               name="Refresh"
+               value="Refresh status" />
+      </td>
+    </tr>
+  </table>
+</form>
+
+
+                                            
+<table id="StatusGrid"
+       class="SortableGrid">
+  <thead>
+        <tr class="ProjectGridHeader">
+            <th class="left">Server</th>
+            <th class="left">Project Name</th>
+      <th>Last Build Status</th>
+      <th>Last Build Time</th>
+      <th>Next Build Time</th>
+      <th>Last Build Label</th>
+      <th>CCNet Status</th>
+      <th>Activity</th>
+      <th class="{sorter:false}">Messages</th>
+      <th class="{sorter:false}">Admin</th>
+    </tr>
+  </thead>
+  <tbody>
+
+        
+        <tr id="projectData1">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/AspSQLProvider/ViewProjectReport.aspx" title="">AspSQLProvider</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/AspSQLProvider/ViewLatestBuildReport.aspx">2012-05-23 18:36:45</a></td>
+            <td>2012-08-01 20:29:35</td>
+            <td>1.3.15.0</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="AspSQLProvider" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/AspSQLProvider/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData2">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/Build-Server-Config/ViewProjectReport.aspx" title="">Build-Server-Config</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/Build-Server-Config/ViewLatestBuildReport.aspx">2012-07-25 22:44:49</a></td>
+            <td>2012-08-01 20:32:12</td>
+            <td>2012.07.25.001</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Build-Server-Config" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/Build-Server-Config/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData3">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/CruiseControl.NET-1.8-dev/ViewProjectReport.aspx" title="">CruiseControl.NET-1.8-dev</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/CruiseControl.NET-1.8-dev/ViewLatestBuildReport.aspx">2012-07-28 10:34:47</a></td>
+            <td>2012-08-01 20:29:18</td>
+            <td>1.7.2.0</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="CruiseControl.NET-1.8-dev" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/CruiseControl.NET-1.8-dev/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData4">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/CruiseControl.NET-dev/ViewProjectReport.aspx" title="">CruiseControl.NET-dev</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/CruiseControl.NET-dev/ViewLatestBuildReport.aspx">2012-07-28 10:17:51</a></td>
+            <td>2012-08-01 20:29:30</td>
+            <td>1.9.1.0</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="CruiseControl.NET-dev" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/CruiseControl.NET-dev/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData5">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/CruiseControl.NET-package/ViewProjectReport.aspx" title="">CruiseControl.NET-package</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/CruiseControl.NET-package/ViewLatestBuildReport.aspx">2012-07-26 12:59:50</a></td>
+            <td>Force Build Only</td>
+            <td>1.8.0.0</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="CruiseControl.NET-package" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/CruiseControl.NET-package/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData6">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/FAKE/ViewProjectReport.aspx" title="">FAKE</a>
+            </td>
+            <td class="Red">Failure</td>
+            <td><a href="server/build.nauck-it.de/project/FAKE/ViewLatestBuildReport.aspx">2012-07-30 09:35:59</a></td>
+            <td>2012-08-01 20:27:36</td>
+            <td>2012.07.30.001</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                <li>Breakers : Steffen Forkmann, mausch, Scott Scites, Dominik Guder, unknown, colinbul, Colin Bull, Dmitry Lobanov, PapaMufflon, jason patterson, lemball, Matthias Dittrich</li>
+                                                                <li>Failing Tasks : FakeTask</li>
+                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="FAKE" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/FAKE/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData7">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/FastForward.NET/ViewProjectReport.aspx" title="">FastForward.NET</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/FastForward.NET/ViewLatestBuildReport.aspx">2012-05-13 03:36:47</a></td>
+            <td>2012-08-01 20:29:21</td>
+            <td>1.0.59.104</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="FastForward.NET" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/FastForward.NET/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData8">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/Footloose/ViewProjectReport.aspx" title="">Footloose</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/Footloose/ViewLatestBuildReport.aspx">2012-07-05 08:44:07</a></td>
+            <td>2012-08-01 20:27:11</td>
+            <td>0.2.86.0</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Footloose" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/Footloose/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData9">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/NauckIT.NAnt/ViewProjectReport.aspx" title="">NauckIT.NAnt</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/NauckIT.NAnt/ViewLatestBuildReport.aspx">2012-05-13 03:36:47</a></td>
+            <td>2012-08-01 20:26:39</td>
+            <td>1.0.24.239</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="NauckIT.NAnt" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/NauckIT.NAnt/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData10">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/NetReflector/ViewProjectReport.aspx" title="">NetReflector</a>
+            </td>
+            <td class="Green">Success</td>
+            <td><a href="server/build.nauck-it.de/project/NetReflector/ViewLatestBuildReport.aspx">2012-05-23 18:36:45</a></td>
+            <td>2012-08-01 20:28:30</td>
+            <td>1.0.22.58</td>
+            <td class="statusRunning">Running</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="NetReflector" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/NetReflector/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+              
+        <tr id="projectData11">
+                        <td class="Black left">build.nauck-it.de</td>
+                        <td class="left">
+              <a href="/server/build.nauck-it.de/project/Npgsql2/ViewProjectReport.aspx" title="">Npgsql2</a>
+            </td>
+            <td class="Red">Exception</td>
+            <td><a href="server/build.nauck-it.de/project/Npgsql2/ViewLatestBuildReport.aspx">2012-07-28 03:22:26</a></td>
+            <td>2012-07-28 03:27:28</td>
+            <td>2.0.8.129</td>
+            <td class="statusStopped">Stopped</td>
+            <td class="activitySleeping">Sleeping</td>
+            <td class="left">
+              <ul>
+                                                                <li>Failing Tasks : Cvs: CheckForModifications</li>
+                              </ul>
+            </td>
+            <td>
+              <form method="post"
+                    style="margin-bottom:0px;">
+                <input type="hidden"
+                       name="projectName"
+                       value="Npgsql2" />
+                <input type="hidden"
+                       name="serverName"
+                       value="build.nauck-it.de" />
+                <font color="Black">
+                                                      <input type="button"
+                         name="ForceBuild"
+                         value="Force"
+                         onclick="checkForParams(this, '/server/build.nauck-it.de/project/Npgsql2/ViewProjectParameters.aspx')"/>
+                                                                      </font>
+              </form>
+            </td>
+        </tr>
+                  </tbody>
+    <tfoot>
+    <tr>
+      <td colspan="10">
+        <table  id="BuildPercentage">
+          <tr title="Percentage of successfull builds : 80%">
+                        <td width="40%"
+                bgcolor="#33CC00"></td>
+            <td width="10%"
+                bgcolor="#FF0000"></td>
+            <td width="10%"
+                bgcolor="#FF0000"></td>
+            <td width="40%"
+                bgcolor="#33CC00"></td>
+                      </tr>
+        </table>
+      </td>
+    </tr>
+  </tfoot>
+  </table>
+
+
+
+
+<!-- ProjectGrid.vm: End -->
+
+						<!-- Main content: End -->
+						</td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td height="2" colspan="3"></td>
+			</tr>
+		</table>
+		<table class="Footer" width="100%">
+			<tr valign="top">
+				<td>
+					<p>This page rendered at 2012-08-01 20:26:03</p>
+				</td>
+				<td align="right">
+					<a href="http://opensource.thoughtworks.com/"><img src="/images/tw_open_source_small.png" border="0" alt="ThoughtWorks Open Source"/></a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

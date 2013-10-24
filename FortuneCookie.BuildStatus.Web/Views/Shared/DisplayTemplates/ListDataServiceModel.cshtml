@@ -1,0 +1,7 @@
+﻿@model IList<FortuneCookie.BuildStatus.Domain.DataServiceDetails>
+
+@foreach (var dataModel in Model)
+{
+    <a href="@dataModel.DashboardAddress">@dataModel.Name</a> <text>|</text>
+}
+

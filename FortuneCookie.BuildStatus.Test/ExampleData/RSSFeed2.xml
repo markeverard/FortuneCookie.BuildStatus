@@ -1,0 +1,1297 @@
+<rss version="2.0">
+  <channel>
+    <title>CruiseControl.Net - RICS</title>
+    <link>http://vm-devtools.fcdev.local/server/local/project/RICS/ViewProjectReport.aspx</link>
+    <description>Latest build results for 'RICS'</description>
+    <language>en</language>
+    <ttl>5</ttl>
+    <generator>CruiseControl.Net</generator>
+    <item>
+      <title>Build 0.1.780.3187 : Success  2 changed files found in build  First Comment : Changes to Ref Data. Please read the change log if you do not want to import MetaDataBackup_Core_12-02-03_AB.xml into Commerce 
+</title>
+      <description>2 changed files found in build</description>
+      <guid>db55b418-edc8-4bd5-97b0-aecef6244c2c</guid>
+      <pubDate>Fri, 03 Feb 2012 11:16:01 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Changes to Ref Data. Please read the change log if you do not want to import MetaDataBackup_Core_12-02-03_AB.xml into Commerce 
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Changes to Ref Data. Please read the change log if you do not want to import MetaDataBackup_Core_12-02-03_AB.xml into Commerce 
+</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB.xml</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_ChangeLog.txt</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.781.3188 : Success  7 changed files found in build  First Comment : minor refactoring</title>
+      <description>7 changed files found in build</description>
+      <guid>6ce7bb85-a925-435b-838d-e15d8e0b46a3</guid>
+      <pubDate>Fri, 03 Feb 2012 11:22:47 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>minor refactoring</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>minor refactoring</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateSkills.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateTopics.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateProfessionalGroups.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateDesignations.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateAffiliations.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateBoards.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateAccreditations.sql</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.782.3189 : Success  33 changed files found in build  First Comment : RICSMYRICSB-223 - Member profile - Added comments sidebar.</title>
+      <description>33 changed files found in build</description>
+      <guid>31f4d213-75ee-4d96-ba39-e61a5a986ca4</guid>
+      <pubDate>Fri, 03 Feb 2012 13:06:16 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>RICSMYRICSB-223 - Member profile - Added comments sidebar.</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>RICSMYRICSB-223 - Member profile - Added comments sidebar.</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Domain/Models/MyRics</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberComments.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberDetails.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Rics.ProfileServices.csproj</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/UserDetails.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/UserDetails.ascx.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Domain/Models/MyRics/MemberCommentViewModel.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Domain/Models/MyRics/EducationDetailViewModel.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/MemberProfile.aspx</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberCv.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberCv.ascx.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/YourComments.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/YourComments.ascx.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/UserCv.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/View</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberComments.ascx</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberDetails.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberComments.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/CommentEngine.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/UserDetails.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Rics.Domain.csproj</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberCv.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/YourComments.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/GlobalSite/Units/Comments.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/MemberProfile.aspx.designer.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/MemberProfile.aspx.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/UserCv.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Rics.Web.csproj</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/UserCv.ascx.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberDetails.ascx</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.783.3190 : Success  3 changed files found in build  First Comment : External Links Artifacts</title>
+      <description>3 changed files found in build</description>
+      <guid>9c89932e-cffc-4da6-8cf7-1a5b4902adbe</guid>
+      <pubDate>Fri, 03 Feb 2012 14:15:59 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>External Links Artifacts</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>External Links Artifacts</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateExternalLinks.sql</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_UriLink.xml</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_UriLink_ChangeLog.txt</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.784.3191 : Failure  7 changed files found in build  First Comment : Added Tests for External Links (CRMOnline/CRMOffline)</title>
+      <description>7 changed files found in build</description>
+      <guid>7c918aaa-a7b1-498a-b11e-f1e25bbbc256</guid>
+      <pubDate>Fri, 03 Feb 2012 14:17:19 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added Tests for External Links (CRMOnline/CRMOffline)</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added Tests for External Links (CRMOnline/CRMOffline)</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Rics.Test.Integration.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/UriLinkEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Enums/RefDataCategory.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerUriLink.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/ExternalLinksTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/ExternalLinksTests.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.784.3192 : Success  1 changed file found in build  First Comment : This needs revisiting..</title>
+      <description>1 changed file found in build</description>
+      <guid>b39d1c67-e9b0-42f1-894c-14777fbf8362</guid>
+      <pubDate>Fri, 03 Feb 2012 14:22:23 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>This needs revisiting..</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>This needs revisiting..</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ExternalLinks.aspx.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.785.3193 : Success  4 changed files found in build  First Comment : RICSMYRICSB-147 - Wiring up ManageTopics page.</title>
+      <description>4 changed files found in build</description>
+      <guid>6c066abf-8aa0-48b5-8f8d-0f26bb17ed0e</guid>
+      <pubDate>Fri, 03 Feb 2012 18:25:23 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>RICSMYRICSB-147 - Wiring up ManageTopics page.</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>RICSMYRICSB-147 - Wiring up ManageTopics page.</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/App_Data/ImportExport/RicsCommerceManager/metadata/MetaDataBackup_Core_12-02-03_AB.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Resources/assets/css/myrics.css</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.786.3195 : Success  41 changed files found in build  First Comment : Regen Classes for 7.2a</title>
+      <description>41 changed files found in build</description>
+      <guid>1293cc91-9622-4a03-a303-e03761062d9e</guid>
+      <pubDate>Mon, 06 Feb 2012 09:28:55 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Regen Classes for 7.2a</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Regen Classes for 7.2a</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Enums/RefDataCategory.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/DesignationEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Handlers/CommunicationHandler.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Rics.ProfileServices.csproj</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/CommunicationEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactSvcStub.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/CommunicationPreferenceEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/ContactCoreEntity.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/CommunicationEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerContactCore.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerCommunicationPreference.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/ContactProfile.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/TopicEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/SkillEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Helpers/EntityHelper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/EmploymentDetailEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerFirmOffice.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/ProfessionalGroupEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerEmploymentDetail.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/MemberCoreEntity.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Handlers/CommunicationResponseHandler.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/CommunicationResponseEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/AffiliationEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/FunctionEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerMemberCore.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/DPAResponseEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/BoardEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/CommunicationResponseEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerDPAResponse.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Enums/ContactDataRequest.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Rics.Test.Integration.csproj</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/EmploymentDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/MemberCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/MemberCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/CommunicationPreferenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Configs/baf.data.manager.config</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/ContactCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/CommunicationPreferenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/ContactCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/RefDataHelper/RefDataHelperTests.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.787.3196 : Success  1 changed file found in build  First Comment : Regen Classes for 7.2a</title>
+      <description>1 changed file found in build</description>
+      <guid>5eecf09c-3dbc-43e5-a292-d1d072e42a24</guid>
+      <pubDate>Mon, 06 Feb 2012 09:31:19 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Regen Classes for 7.2a</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Regen Classes for 7.2a</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Configs/baf.data.manager.config</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.788.3197 : Success  4 changed files found in build  First Comment : Regen Classes for 7.2a</title>
+      <description>4 changed files found in build</description>
+      <guid>d590b84b-f4e2-4857-83a7-11881562f4a5</guid>
+      <pubDate>Mon, 06 Feb 2012 09:54:18 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Regen Classes for 7.2a</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Regen Classes for 7.2a</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateCommunicationResponse.sql</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_7.2a_ChangeLog.txt</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateRefData.sql</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateFunctions.sql</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Failure  20 changed files found in build  First Comment : ecom change requests.
+hide change address link if it's not delivery
+hide stock information
+</title>
+      <description>20 changed files found in build</description>
+      <guid>9a88ded1-0f69-48e8-a388-3d782490eb22</guid>
+      <pubDate>Mon, 06 Feb 2012 10:09:38 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>nimesh.manmohanlal</td><td>ecom change requests.
+hide change address link if it's not delivery
+hide stock information
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>nimesh.manmohanlal</b></td><td>ecom change requests.
+hide change address link if it's not delivery
+hide stock information
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H3.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H4.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Models/Commerce/Publication.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H4.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/BookDescription.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/LatestReviews.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/BookDescription.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/ProductSummary.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Products/Pricing.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/LatestReviews.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/PageTypes/Commerce/Private/SettingsPageType.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H3-AddToBasket.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H3-AddToBasket.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H3-AddToBasket.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/LatestProducts.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceDomain/Models/PublicationAttributes.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H2.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H3.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/SpecialOffers.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/Product-H4.ascx</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Failure  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>ead8a941-3375-4283-8cf5-6a7c8c86924a</guid>
+      <pubDate>Mon, 06 Feb 2012 10:15:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Exception  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>bccd3663-8ca1-40e2-b713-c376461e783c</guid>
+      <pubDate>Mon, 06 Feb 2012 10:20:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Exception  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>2a005f24-1197-4688-af84-d42c59706687</guid>
+      <pubDate>Mon, 06 Feb 2012 10:21:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Exception  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>34c825a4-5ae2-43e1-bf5e-7e85c0731132</guid>
+      <pubDate>Mon, 06 Feb 2012 10:22:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Exception  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>dfb5697c-696f-4b60-b0be-fd79ebac831a</guid>
+      <pubDate>Mon, 06 Feb 2012 10:23:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Exception  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>550df908-c39e-43bf-b1b3-0056efc31046</guid>
+      <pubDate>Mon, 06 Feb 2012 10:24:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Failure  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>518ead7f-55a0-4e45-b65e-db757154b7ae</guid>
+      <pubDate>Mon, 06 Feb 2012 10:34:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3201 : Success  18 changed files found in build  First Comment : dll refresh</title>
+      <description>18 changed files found in build</description>
+      <guid>9134206e-b0f9-45f6-9d09-825c4b59042b</guid>
+      <pubDate>Mon, 06 Feb 2012 10:52:29 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>nimesh.manmohanlal</td><td>dll refresh</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>nimesh.manmohanlal</b></td><td>dll refresh</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Search.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Geta.oEmbed.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FilteredPageReference.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Mock.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.DataContracts.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.AddressLookup.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Business.Commerce.Payment.CyberSource.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.Twitter.API.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Content.Tagging.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Impl.exe</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.GoogleSearchAppliance.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.OAuth.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/ElencySolutions.MultipleProperty.dll</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.790.3202 : Success  18 changed files found in build  First Comment : Added Export of BF Entities</title>
+      <description>18 changed files found in build</description>
+      <guid>f439ac2f-af71-41d5-b0aa-82bada8917bf</guid>
+      <pubDate>Mon, 06 Feb 2012 11:02:43 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added Export of BF Entities</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added Export of BF Entities</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-06_BFEntities.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_7.2a_ChangeLog.txt</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-30-MH1.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-30-MH2.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_UriLink_ChangeLog.txt</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-25-v2.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_ChangeLog.txt</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB_UriLink.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-27-MH-EndOf.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-01-MH.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-23.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-24.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-03_AB.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-25.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-27-2.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-27.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-26_AB.xml</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-01-27_RefDataCategory+RefDataItem.xml</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.791.3203 : Success  2 changed files found in build  First Comment : added core enums in export file</title>
+      <description>2 changed files found in build</description>
+      <guid>aa5caef4-aec7-49bc-a7c8-da2baf2c03d9</guid>
+      <pubDate>Mon, 06 Feb 2012 12:05:59 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>added core enums in export file</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>added core enums in export file</td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-06_BFEntities.xml</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-06.xml</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.792.3205 : Success  2 changed files found in build  </title>
+      <description>2 changed files found in build</description>
+      <guid>f4f23195-1810-4b8a-8176-288edfde21e3</guid>
+      <pubDate>Mon, 06 Feb 2012 12:15:47 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td></td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-06.xml</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-06.xml</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.793.3206 : Success  1 changed file found in build  First Comment : Changes to FirmOffice</title>
+      <description>1 changed file found in build</description>
+      <guid>27d5667c-f34d-4171-9f74-4c9e88263d8c</guid>
+      <pubDate>Mon, 06 Feb 2012 14:53:13 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Changes to FirmOffice</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Changes to FirmOffice</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-06FirmOffice.xml</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.794.3207 : Failure  10 changed files found in build  First Comment : Added EmploymentDetailsTests for CRMOnline , various amends regarding address types</title>
+      <description>10 changed files found in build</description>
+      <guid>35b50b80-cc98-43ed-858e-7d718d80ffe2</guid>
+      <pubDate>Mon, 06 Feb 2012 14:55:33 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added EmploymentDetailsTests for CRMOnline , various amends regarding address types</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added EmploymentDetailsTests for CRMOnline , various amends regarding address types</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/ContactProfile.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Helpers/AddressMapper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/EmploymentDetailEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerFirmOffice.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Rics.Test.Integration.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/EmploymentDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerEmploymentDetail.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerPersonalCorrespondence.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/FirmOfficeEntity.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.794.3208 : Success  1 changed file found in build  First Comment : the one that got away...</title>
+      <description>1 changed file found in build</description>
+      <guid>9c078235-9ffe-4ef7-ab76-0d08f35f8a2a</guid>
+      <pubDate>Mon, 06 Feb 2012 14:59:30 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>the one that got away...</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>the one that got away...</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/EmploymentDetailsTests.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.795.3210 : Success  34 changed files found in build  First Comment : Added profile test data population scripts.
+Updated member profile page to work with updated profile structure
+
+</title>
+      <description>34 changed files found in build</description>
+      <guid>9094c24f-9a81-4bc4-be2e-1017388a12b3</guid>
+      <pubDate>Mon, 06 Feb 2012 15:17:48 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>Added profile test data population scripts.
+Updated member profile page to work with updated profile structure
+
+</td></tr>
+<tr><td>nimesh.manmohanlal</td><td>refactor
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>Added profile test data population scripts.
+Updated member profile page to work with updated profile structure
+
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Search.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateEmployment.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.DataContracts.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateConatactCore.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/MemberProfile.aspx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Impl.exe</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateEducationAndCourseIds.sql</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateMemberCore.sql</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/App_Data/ImportExport/RicsCommerceManager/metadata/MetaDataBackup_Core_12-02-06_BFEntities.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateProfileRefData.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Mock.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FilteredPageReference.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Geta.oEmbed.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.AddressLookup.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerContactCore.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateProfileSetting.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Business.Commerce.Payment.CyberSource.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberCv.ascx</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/App_Data/ImportExport/RicsCommerceManager/metadata/MetaDataBackup_Core_12-02-06.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.Twitter.API.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Content.Tagging.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/MemberProfile.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.GoogleSearchAppliance.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.OAuth.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/ElencySolutions.MultipleProperty.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Units/MemberDetails.ascx</font></td></tr>
+<tr><td><b>nimesh.manmohanlal</b></td><td>refactor
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Security/Impl/CommerceSync.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.796.3211 : Success  6 changed files found in build  First Comment : Removed scripts that have been consolidated into single script.</title>
+      <description>6 changed files found in build</description>
+      <guid>2f51b35b-a183-4707-b36d-636ff9d270b2</guid>
+      <pubDate>Mon, 06 Feb 2012 15:20:13 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>Removed scripts that have been consolidated into single script.</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>Removed scripts that have been consolidated into single script.</td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/PopulateSkills.sql</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/PopulateTopics.sql</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/PopulateProfessionalGroups.sql</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/PopulateDesignations.sql</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/PopulateAffiliations.sql</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Database/PopulateBoards.sql</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.797.3212 : Success  1 changed file found in build  First Comment : Added ContactProfileId to DPAResponseEntity</title>
+      <description>1 changed file found in build</description>
+      <guid>636351c1-1fcd-4a42-a430-1155d4fc67eb</guid>
+      <pubDate>Mon, 06 Feb 2012 15:33:13 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added ContactProfileId to DPAResponseEntity</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added ContactProfileId to DPAResponseEntity</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-06DPAResponse.xml</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.798.3213 : Success  1 changed file found in build  First Comment : Added script to populate DPA responses
+</title>
+      <description>1 changed file found in build</description>
+      <guid>c93ac170-4fdf-4d0b-8bcb-f8f7a0aff4e5</guid>
+      <pubDate>Mon, 06 Feb 2012 15:43:52 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added script to populate DPA responses
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added script to populate DPA responses
+</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateDPAResponses.sql</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.799.3214 : Success  34 changed files found in build  First Comment : Extended ProfileService with AddTopicSubscription and RemoveTopicSubscription methods.
+Rationalised some interface naming.</title>
+      <description>34 changed files found in build</description>
+      <guid>6a35fb01-cf16-4103-ba5e-6b26718b1bbc</guid>
+      <pubDate>Mon, 06 Feb 2012 17:45:33 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>Extended ProfileService with AddTopicSubscription and RemoveTopicSubscription methods.
+Rationalised some interface naming.</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>Extended ProfileService with AddTopicSubscription and RemoveTopicSubscription methods.
+Rationalised some interface naming.</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Affiliations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Boards.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Affiliations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Boards.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Rics.ProfileServices.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/TestRunnerConfig.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/App_Data/ImportExport/RicsCommerceManager/metadata/MetaDataBackup_Core_12-02-06FirmOffice.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/ContactProfile.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/TopicEntityExtension.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Designations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ExternalLinks.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Designations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Skills.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Skills.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/ProfessionalGroups.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/Contracts/IContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/ProfessionalGroups.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Rics.Test.Integration.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Contracts/IProfileService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/TopicSubscriptionTests.cs</font></td></tr>
+<tr><td><font size=2>Deleted</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/IRemoteRepository.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileServiceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Accreditations.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/App_Data/ImportExport/RicsCommerceManager/metadata/MetaDataBackup_Core_12-02-06DPAResponse.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Accreditations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Topics.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Topics.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.800.3215 : Success  19 changed files found in build  First Comment : make fields in ecom backend not editable
+</title>
+      <description>19 changed files found in build</description>
+      <guid>36f0486e-e097-4e1e-a9bf-062fe0ad99f3</guid>
+      <pubDate>Mon, 06 Feb 2012 20:16:12 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>nimesh.manmohanlal</td><td>make fields in ecom backend not editable
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>nimesh.manmohanlal</b></td><td>make fields in ecom backend not editable
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Catalog/Tabs/EntryPricingEditTab.ascx</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/Classes/EditableCoreBaseUserControl.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Catalog/Tabs/EntryPricingEditTab.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/Web.Config</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/Rics.CommerceManager.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/MetaData/Controls/LongHtmlStringControl.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Catalog/Tabs/EntryOverviewEditTab.ascx</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/Classes/InterfaceConfiguration.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Catalog/Tabs/EntryOverviewEditTab.acsx.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/Controls/CalendarDatePickerReadOnly.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/Controls/CalendarDatePicker.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Shell/EPi/Shell/Light/Shell-ext.css</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/Controls/CalendarDatePickerReadOnly.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/MetaData/Controls/ShortStringControl.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/MetaData/Controls/MoneyControl.ascx</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/Classes/ControlExtensions.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/MetaData/Controls/IntegerControl.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/MetaData/RicsEditTab.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Core/MetaData/Controls/DecimalControl.ascx</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.801.3216 : Success  25 changed files found in build  First Comment : Added unit tests for various entities</title>
+      <description>25 changed files found in build</description>
+      <guid>2024e35d-00d4-469b-a9a1-d4e4efabae32</guid>
+      <pubDate>Tue, 07 Feb 2012 15:37:17 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added unit tests for various entities</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added unit tests for various entities</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerCreditCardTokenDetail.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/EducationDetailEntity.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Enums/RefDataCategory.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/EducationDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerEducationDetail.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-07CourseIdentifier+EducationDetail.xml</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/DPAResponseTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/EducationDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Configs/baf.data.manager.config</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/CourseIdentifierEntity.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/DPAResponseTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerCourseIdentifier.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/CreditCardTokenDetailTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/CreditCardTokenDetailTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Models/MyRics/EducationDetailViewModel.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/ContactProfile.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Helpers/EntityHelper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Database/PopulateRefData.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Handlers/DPAResponseHandler.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerEmploymentDetail.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/BusinessFoundation/DPAResponseEntity.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/PopulateEducation.sql</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerDPAResponse.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.802.3217 : Success  14 changed files found in build  First Comment : ecom changes
+</title>
+      <description>14 changed files found in build</description>
+      <guid>e09be814-bc7c-4b5c-b19c-2402d45de942</guid>
+      <pubDate>Tue, 07 Feb 2012 16:30:40 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>nimesh.manmohanlal</td><td>ecom changes
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>nimesh.manmohanlal</b></td><td>ecom changes
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/lang/Rics_EN.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Catalog/Tabs/EntryAssociationEditTab.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Services.Impl/StringUtility.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Services.Impl/CatalogueEntryUpdateMessageHandler.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/Shared/Apps/Catalog/Tabs/EntryAssociationEditTab.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/BookImage.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Pages/Home.aspx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/Rics.CommerceManager.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Models/ContentAbstractPresenters/PublicationPresenter.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/lang/Rics_ENGB.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/GlobalSite/Units/Listings/SearchPublicationItem.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/GlobalSite/Units/SocialControls.ascx</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.803.3218 : Success  1 changed file found in build  First Comment : Added props to MyRicsSettingsPageType</title>
+      <description>1 changed file found in build</description>
+      <guid>741855f1-46e1-48a3-98a9-c9de8e425d22</guid>
+      <pubDate>Tue, 07 Feb 2012 16:33:12 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added props to MyRicsSettingsPageType</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added props to MyRicsSettingsPageType</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/PageTypes/GlobalSite/PrivatePages/MyRicsSettingsPageType.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.804.3219 : Success  18 changed files found in build  First Comment : dll refresh</title>
+      <description>18 changed files found in build</description>
+      <guid>0eb5c752-92ad-4633-bd6a-e01d4e4e2ebe</guid>
+      <pubDate>Tue, 07 Feb 2012 16:59:32 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>nimesh.manmohanlal</td><td>dll refresh</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>nimesh.manmohanlal</b></td><td>dll refresh</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Search.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Geta.oEmbed.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FilteredPageReference.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Mock.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.DataContracts.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.AddressLookup.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Business.Commerce.Payment.CyberSource.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.Twitter.API.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Content.Tagging.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Impl.exe</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.GoogleSearchAppliance.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.OAuth.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/ElencySolutions.MultipleProperty.dll</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.805.3220 : Success  3 changed files found in build  First Comment : Added MyRicsSettingsPage</title>
+      <description>3 changed files found in build</description>
+      <guid>2e9ae286-5ab4-4543-9986-a6c1aa23a99f</guid>
+      <pubDate>Tue, 07 Feb 2012 17:08:41 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Added MyRicsSettingsPage</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Added MyRicsSettingsPage</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Helper/SiteStructureHelper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/PageTypes/GlobalSite/Pages/HomePageType.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/PageTypes/Base/IStartPage.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.806.3221 : Success  33 changed files found in build  First Comment : RICSMYRICSB-147 - Added an association between the CMS topic tags and ProfileService RefDataItem topics.
+</title>
+      <description>33 changed files found in build</description>
+      <guid>ee7524b5-38e0-4968-8291-43da58d865de</guid>
+      <pubDate>Tue, 07 Feb 2012 17:56:09 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>RICSMYRICSB-147 - Added an association between the CMS topic tags and ProfileService RefDataItem topics.
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>RICSMYRICSB-147 - Added an association between the CMS topic tags and ProfileService RefDataItem topics.
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Search.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Content.Tagging/Interfaces/ITag.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.DataContracts.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Content.Tagging/Interfaces/ITopicRepository.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Content.Tagging/Rics.Content.Tagging.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Impl.exe</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Content.Tagging/PageTypes/CustomProperties/PropertyMemberTopicsDropDown.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Mock.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FilteredPageReference.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Geta.oEmbed.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.designer.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/TopicSubscriptionTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Content.Tagging/Impl/Tag.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.AddressLookup.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Business.Commerce.Payment.CyberSource.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.Twitter.API.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Content.Tagging.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Content.Tagging/Interfaces/ITagService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.GoogleSearchAppliance.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.OAuth.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Content.Tagging/PageTypes/Tagging/TagPageType.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Content.Tagging/Impl/TagService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/ElencySolutions.MultipleProperty.dll</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Content.Tagging/Impl/EpiServerTopicTagRepository.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.807.3222 : Success  6 changed files found in build  First Comment : follow twitter on shop landing page
+</title>
+      <description>6 changed files found in build</description>
+      <guid>dfab5efd-bd05-49a4-8ea0-0bbe11305ce5</guid>
+      <pubDate>Tue, 07 Feb 2012 19:05:22 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>nimesh.manmohanlal</td><td>follow twitter on shop landing page
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>nimesh.manmohanlal</b></td><td>follow twitter on shop landing page
+</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/SocialMedia.ascx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/PageTypes/Commerce/Private/SettingsPageType.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/SocialMedia.ascx.designer.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/SocialMedia.ascx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Pages/Home.aspx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Rics.Web.csproj</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.808.3223 : Success  18 changed files found in build  First Comment : dll refresh</title>
+      <description>18 changed files found in build</description>
+      <guid>fef312bc-e8f7-4b64-92b7-340722d9f5de</guid>
+      <pubDate>Tue, 07 Feb 2012 19:07:47 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>nimesh.manmohanlal</td><td>dll refresh</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>nimesh.manmohanlal</b></td><td>dll refresh</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Search.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Geta.oEmbed.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FilteredPageReference.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Mock.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.DataContracts.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.AddressLookup.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Business.Commerce.Payment.CyberSource.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.Twitter.API.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Content.Tagging.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Impl.exe</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.GoogleSearchAppliance.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.OAuth.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/ElencySolutions.MultipleProperty.dll</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.809.3224 : Success  39 changed files found in build  First Comment : Changed the way the profile service is instantiated. modified unit tests</title>
+      <description>39 changed files found in build</description>
+      <guid>75a210d5-76c0-440c-a280-6557ef662025</guid>
+      <pubDate>Tue, 07 Feb 2012 21:47:41 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>Changed the way the profile service is instantiated. modified unit tests</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>Changed the way the profile service is instantiated. modified unit tests</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Affiliations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Boards.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/MemberCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Affiliations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Boards.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/MemberCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/ExternalLinksTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Rics.ProfileServices.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/ExternalLinksTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/TestRunnerConfig.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Domain/Helper/ProfileSettingsHelper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/PublicProfileSettingsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Designations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Designations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ExternalLinks.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/ContactCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/ContactCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Skills.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Skills.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/ProfessionalGroups.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/ProfessionalGroups.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/PersonalCorrespondenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/PersonalCorrespondenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/TopicSubscriptionTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Profile.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Rics.Domain.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileServiceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/EmploymentDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/EmploymentDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Accreditations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/MemberProfile.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/CommunicationPreferenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Accreditations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/CommunicationPreferenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Topics.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileSettings.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Topics.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.810.3225 : Success  2 changed files found in build  First Comment : added property to retrieve ContactNumber, see usage in ManageTopics..</title>
+      <description>2 changed files found in build</description>
+      <guid>089b6a88-51be-47d9-8784-a5330f523951</guid>
+      <pubDate>Tue, 07 Feb 2012 21:57:45 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>added property to retrieve ContactNumber, see usage in ManageTopics..</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>added property to retrieve ContactNumber, see usage in ManageTopics..</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Domain/Helper/ProfileSettingsHelper.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.811.3226 : Success  9 changed files found in build  First Comment : implement contactid,contactprofileid, lastloaded lookups via contactnumber.. please run Database/MetaDataBackup_Core_12-02-08Contact.xml
+</title>
+      <description>9 changed files found in build</description>
+      <guid>48aedd71-958b-4e61-94fc-2729721375d4</guid>
+      <pubDate>Wed, 08 Feb 2012 14:29:32 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>implement contactid,contactprofileid, lastloaded lookups via contactnumber.. please run Database/MetaDataBackup_Core_12-02-08Contact.xml
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>implement contactid,contactprofileid, lastloaded lookups via contactnumber.. please run Database/MetaDataBackup_Core_12-02-08Contact.xml
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/ContactProfile.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Helpers/EntityHelper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Rics.Test.Integration.csproj</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Database/MetaDataBackup_Core_12-02-08Contact.xml</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/Extensions/CustomerContact.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Rics.ProfileServices.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Profile.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/EntityHelperTests.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.812.3227 : Success  1 changed file found in build  </title>
+      <description>1 changed file found in build</description>
+      <guid>7c74c4c7-255a-41f2-94d7-112df83df845</guid>
+      <pubDate>Wed, 08 Feb 2012 14:37:56 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td></td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Extensions/CustomerContact.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.813.3228 : Success  1 changed file found in build  First Comment : JIRA RICSGLOBAL-797
+eCom - Payment process - Confirmation email - Details missing
+Change the way delivery and billing addresses are set.</title>
+      <description>1 changed file found in build</description>
+      <guid>fcbf597f-9f05-4938-bda7-1e1f3e534502</guid>
+      <pubDate>Wed, 08 Feb 2012 15:40:06 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>marcin.wziatek</td><td>JIRA RICSGLOBAL-797
+eCom - Payment process - Confirmation email - Details missing
+Change the way delivery and billing addresses are set.</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>marcin.wziatek</b></td><td>JIRA RICSGLOBAL-797
+eCom - Payment process - Confirmation email - Details missing
+Change the way delivery and billing addresses are set.</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/Commerce/Units/EmailOrderConfirmation/OrderConfirmation.ascx.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.814.3229 : Success  34 changed files found in build  First Comment : added IsDirty checks</title>
+      <description>34 changed files found in build</description>
+      <guid>f5faa615-b449-4871-94e1-a05d80647917</guid>
+      <pubDate>Wed, 08 Feb 2012 17:11:11 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>added IsDirty checks</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>added IsDirty checks</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Affiliations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Boards.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/MemberCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Affiliations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/MemberCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Boards.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/ExternalLinksTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/ExternalLinksTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/PublicProfileSettingsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Designations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Designations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/ContactCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/ContactCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Skills.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Skills.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/ProfessionalGroups.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/ProfessionalGroups.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/PersonalCorrespondenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Rics.Test.Integration.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/PersonalCorrespondenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/TopicSubscriptionTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileSync/DirtyProfileTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerContactCore.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileServiceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/EmploymentDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/EmploymentDetailsTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Accreditations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Accreditations.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/CommunicationPreferenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/CommunicationPreferenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/RefDataTests/Topics.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileSettings.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOnline/RefDataTests/Topics.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.815.3232 : Success  1 changed file found in build  First Comment : JIRA RICSGLOBAL-588
+Global - Social - Twitter message
+
+Parameter data-text=" " added.</title>
+      <description>1 changed file found in build</description>
+      <guid>28999132-8801-40f4-a37c-acfa8f2eb32c</guid>
+      <pubDate>Thu, 09 Feb 2012 10:53:38 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>marcin.wziatek</td><td>JIRA RICSGLOBAL-588
+Global - Social - Twitter message
+
+Parameter data-text=" " added.</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>marcin.wziatek</b></td><td>JIRA RICSGLOBAL-588
+Global - Social - Twitter message
+
+Parameter data-text=" " added.</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/GlobalSite/Units/SocialControls.ascx</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.816.3233 : Success  13 changed files found in build  First Comment : added profilesync tests</title>
+      <description>13 changed files found in build</description>
+      <guid>e8352375-6171-4dcb-9be1-e456c2eb1c8d</guid>
+      <pubDate>Thu, 09 Feb 2012 11:20:08 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>added profilesync tests</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>added profilesync tests</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Helpers/AddressMapper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Helpers/EntityHelper.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/Rics.Test.Integration.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Models/CustomerPersonalCorrespondence.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Rics.ProfileServices.csproj</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/ContactCoreTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileSync/DirtyProfileTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileSync/MemberCoreSyncTests.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileSync/PersonalCorrespondenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.ProfileServices/Local/Helpers/PrimaryKeyBag.cs</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/ProfileSync/ContactCoreSyncTests.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.817.3234 : Success  2 changed files found in build  First Comment : PersonalCorrespondence Sync</title>
+      <description>2 changed files found in build</description>
+      <guid>0b91fd25-df52-4f75-94f2-63c85a1b68de</guid>
+      <pubDate>Thu, 09 Feb 2012 12:00:55 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>aboo.bolaky</td><td>PersonalCorrespondence Sync</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>aboo.bolaky</b></td><td>PersonalCorrespondence Sync</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Test.Integration/MyRics/CRMOffline/PersonalCorrespondenceTests.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.818.3235 : Success  30 changed files found in build  First Comment : RICSMYRICSB-147 - Wired up the manage topics follow/unfollow buttons.
+Note, this is not currently working as the profile service is a bit shonky, hopefully this will be fixed at some point.
+
+</title>
+      <description>30 changed files found in build</description>
+      <guid>61c14482-44d4-4f5c-9b54-3b7a6ae90379</guid>
+      <pubDate>Thu, 09 Feb 2012 13:13:20 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>RICSMYRICSB-147 - Wired up the manage topics follow/unfollow buttons.
+Note, this is not currently working as the profile service is a bit shonky, hopefully this will be fixed at some point.
+
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>RICSMYRICSB-147 - Wired up the manage topics follow/unfollow buttons.
+Note, this is not currently working as the profile service is a bit shonky, hopefully this will be fixed at some point.
+
+</td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/App_Data/ImportExport/RicsCommerceManager/metadata/MetaDataBackup_Core_12-02-08Contact.xml</font></td></tr>
+<tr><td><font size=2>Added</font></td><td><font size=2>/trunk/Rics.CommerceManager/App_Data/ImportExport/RicsCommerceManager/metadata/MetaDataBackup_Core_12-02-07CourseIdentifier+EducationDetail.xml</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Search.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Content.Tagging/PageTypes/CustomProperties/PropertyMemberTopicsDropDown.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/RefData/RefDataService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Mock.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FilteredPageReference.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Geta.oEmbed.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.designer.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.DataContracts.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Pages/ManageTopics.aspx.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.AddressLookup.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/Rics.CommerceDomain.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Business.Commerce.Payment.CyberSource.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.Twitter.API.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.Web/Templates/MyRics/Resources/assets/css/myrics.css</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.CommerceManager/eCommerceFramework/5.2/RicsCommerceManager/QuartzService/FortuneCookie.log4net.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Services.Impl.exe</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Mediachase.Commerce.Workflow.Activities.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Content.Tagging.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.GoogleSearchAppliance.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/FortuneCookie.OAuth.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/ProfileService.cs</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/ElencySolutions.MultipleProperty.dll</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+    <item>
+      <title>Build 0.1.819.3236 : Success  4 changed files found in build  First Comment : RICSMYRICSB-147 - Temporary fix to the ProxyHelper to prevent disposed exceptions.
+
+</title>
+      <description>4 changed files found in build</description>
+      <guid>bea742a0-bbbd-40b6-bdfa-ceb784d84cb6</guid>
+      <pubDate>Thu, 09 Feb 2012 14:18:14 GMT</pubDate>
+      <encoded xmlns="http://purl.org/rss/1.0/modules/content/"><![CDATA[<h4>Modifications in build :</h4>
+<table cellpadding="5">
+<tr><td>mike.hook</td><td>RICSMYRICSB-147 - Temporary fix to the ProxyHelper to prevent disposed exceptions.
+
+</td></tr>
+</table>
+<h4>Detailed information of the modifications in the build :</h4>
+<table cellpadding="5">
+<tr><td><b>mike.hook</b></td><td>RICSMYRICSB-147 - Temporary fix to the ProxyHelper to prevent disposed exceptions.
+
+</td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Search.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Security.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/References/Rics/Rics.Content.Tagging.dll</font></td></tr>
+<tr><td><font size=2>Modified</font></td><td><font size=2>/trunk/Rics.ProfileServices/Remote/ContactSvcProxyHelper.cs</font></td></tr>
+</table>
+]]></encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+﻿@using FortuneCookie.BuildStatus.Web.Models
+@model BuildStatusViewModel
+
+<div class="broken full">
+
+<h2>Broken<span> - stop everything and fix it!</span></h2>
+<p>The @Html.DisplayFor(m => Model.ServiceDetails) currently has @Model.BrokenProjectCount broken project(s) from a total of @Model.TotalProjectCount.</p>
+
+<ul class="blame">
+    @foreach (var brokenProject in Model.BrokenProjects)
+    {
+        <li>@brokenProject.Name
+        
+            <div class="breakers">
+                @foreach (var breaker in brokenProject.Breakers)
+                {
+                    <span class="separator">@breaker</span>
+                }
+            </div>
+            @if (brokenProject.HasFixer)
+            {
+                <div class="fixers">
+                    <p>@brokenProject.Fixer is fixing this build.</p>
+                </div>
+            }
+        </li>
+     }
+</ul>
+
+</div>

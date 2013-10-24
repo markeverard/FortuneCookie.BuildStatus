@@ -1,0 +1,22 @@
+<rss version="2.0">
+  <channel>
+    <title>CruiseControl.Net - De Beers Corporate Site Publishing</title>
+    <link>http://vm-devtools.fcdev.local/server/local/project/De%20Beers%20Corporate%20Site%20Publishing/ViewProjectReport.aspx</link>
+    <description>Latest build results for 'De Beers Corporate Site Publishing'</description>
+    <language>en</language>
+    <ttl>5</ttl>
+    <generator>CruiseControl.Net</generator>
+    <item>
+      <title>Build 1.0.0.151 : Failure  83 changed files found in build  First Comment : Fixed all images,css and javascript in moved uid templates</title>
+      <description>83 changed files found in build</description>
+      <guid>96228163-d6ca-4f4c-9196-15d5ee5619c8</guid>
+      <pubDate>Thu, 13 Oct 2011 16:45:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build 0.1.789.3198 : Failure  No changed files found in build  </title>
+      <description>No changed files found in build</description>
+      <guid>ead8a941-3375-4283-8cf5-6a7c8c86924a</guid>
+      <pubDate>Mon, 06 Feb 2012 10:15:50 GMT</pubDate>
+    </item>
+    </channel>
+</rss>
